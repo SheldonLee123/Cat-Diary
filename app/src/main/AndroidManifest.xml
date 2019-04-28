@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sheldon.catdiary">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@drawable/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ChooseCat"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CatDetail"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MasterHome"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".PetNest"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".PetInfo"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PetActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PetCare"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CutePet"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PetShop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CatShop"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".CatBeauty"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Setting"
+            android:screenOrientation="portrait" />
+        <activity android:name=".CatFood" />
+        <activity android:name=".CatToy" />
+        <activity android:name=".GameScenes"></activity>
+    </application>
+
+</manifest>

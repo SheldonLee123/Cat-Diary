@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CutePet">
+
+    <LinearLayout
+        android:id="@+id/linearlyout"
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="喂食"
+            android:textSize="20sp"
+            android:background="@drawable/btn_curepet"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="玩耍"
+            android:textSize="20sp"
+            android:background="@drawable/btn_curepet"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="撸猫"
+            android:textSize="20sp"
+            android:background="@drawable/btn_curepet"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="逗趣日常"
+            android:textSize="20sp"
+            android:background="@drawable/btn_curepet"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="精美图片"
+            android:textSize="20sp"
+            android:background="@drawable/btn_curepet"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/linearlyout"
+        android:src="@drawable/cutecat"
+        android:scaleType="centerCrop"/>
+
+    <ImageButton
+        android:id="@+id/btn_return"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:background="@drawable/arrow"
+        android:layout_marginLeft="10dp"
+        android:layout_centerVertical="true"/>
+
+
+</RelativeLayout>
